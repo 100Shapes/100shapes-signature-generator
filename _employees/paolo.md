@@ -1,5 +1,5 @@
 ---
 name: Paolo Memoli
-position: Financal Director
+position: Financial Director
 picture: /assets/paolo.jpg
 ---
