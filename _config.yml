@@ -1,0 +1,10 @@
+collections:
+  employees:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: employees
+    values:
+      layout: signiture

@@ -1,0 +1,24 @@
+---
+title: 100 Shapes Signiture generator
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+	</head>
+	<body>
+		<p>
+			Who are you?
+		</p>
+		<ul>
+			{% for employee in site.employees %}
+				<li>
+					<img src="{{ employee.picture }}" width="50" />
+					<a href="{{ employee.url }}">{{ employee.name }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+
+	</body>
+</html>
