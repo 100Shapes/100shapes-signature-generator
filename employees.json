@@ -1,0 +1,12 @@
+---
+---
+
+"employees":[
+	{% for employee in site.employees %}{
+        "name": "{{ employee.name }}",
+		"position": "{{ employee.position }}",
+		"picture": "{{ employee.picture }}",
+		"url": "{{ employee.url }}"
+    }{% unless forloop.last %}, {% endunless %}{% endfor %}
+]
+	

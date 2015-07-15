@@ -1,16 +1,36 @@
 ---
-title: 100 Shapes Signiture generator
+title: 100 Shapes Signature generator
 ---
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>{{ page.title }}</title>
+		<style type="text/css">
+			html {
+				font-family:'brandon grotesque',tahoma;
+				color:#343434;
+				line-height:30px;
+				font-weight:lighter;
+				font-size:17px;
+			}
+		</style>
 	</head>
 	<body>
-		<p>
-			Who are you?
-		</p>
+		<h1>100 Shape Signature Generator</h1>
+		<h2>Instructions</h2>
+		<ul>
+			<li>
+				Choose signature from below
+			</li>
+			<li>
+				Select and copy All into <a href="https://mail.google.com/mail/u/0/#settings/general">gmail signature box</a>
+			</li>
+			<li>
+				Hit save at the bottom of gmail
+			</li>
+		</ul>
+		<h2>Employees</h2>
 		<ul>
 			{% for employee in site.employees %}
 				<li>

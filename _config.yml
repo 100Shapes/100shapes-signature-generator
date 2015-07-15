@@ -7,4 +7,4 @@ defaults:
       path: ""
       type: employees
     values:
-      layout: signiture
+      layout: signature
