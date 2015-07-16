@@ -1,5 +1,5 @@
 ---
 name: Trevor Morris
 position: Designer
-picture: /assets/michele.jpg
+picture: /assets/trevor.jpg
 ---
