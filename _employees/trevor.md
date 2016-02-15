@@ -1,6 +1,6 @@
 ---
 name: Trevor Morris
-position: Designer
+position: Senior Designer
 picture: /assets/trevor.jpg
 layout: signature-climb
 ---
