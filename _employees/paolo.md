@@ -1,6 +1,6 @@
 ---
 name: Paolo Memoli
-position: Financial Director
+position: Director of Finance and R&D 
 picture: /assets/paolo.jpg
 layout: signature-climb
 ---
